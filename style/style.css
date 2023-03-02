@@ -1,0 +1,293 @@
+/* Общие настройки */
+
+body {
+    margin: 0 auto;
+    width: 1200px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    background-color: #121214;
+}
+
+a {
+    text-decoration: none;
+}
+
+.text-h1 {
+    font-size: 72px;
+    line-height: 72px;
+    color: #fff;
+}
+
+.text-h2 {
+    font-size: 28px;
+    line-height: 36px;
+    color: #fff;
+}
+
+.text-h3 {
+    font-size: 20px;
+    line-height: 24px;
+    color: #fff;
+}
+
+.text-p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+}
+
+.tag {
+    font-size: 12px;
+    line-height: 14px;
+    text-transform: uppercase;
+    color: #A6A8AD;
+
+}
+
+:root {
+    --accent-color: #03f;
+    --dark-color: #121214;
+    --white-color: #fff;
+}
+
+.container {
+    width: 1104px;
+    margin: 0 auto;
+}
+
+/* Настройки header */
+.header {}
+
+.menu {
+    margin: 20px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.menu__nav {
+    display: flex;
+    align-items: center;
+}
+
+.logo {}
+
+.menu__nav_points {
+    margin-left: 29px;
+
+}
+
+.menu__nav_points a {
+    color: #A6A8AD;
+}
+
+.menu__nav_points a:not(:first-child) {
+    margin-left: 20px;
+}
+
+.menu__login {}
+
+.menu__login a {
+    color: #A6A8AD;
+    margin-right: 20px;
+}
+
+.menu__login_button {
+    padding: 8px 21px;
+    line-height: 18px;
+    border: 1px solid #fff;
+    border-radius: 32px;
+    color: var(--dark-color);
+}
+
+.free-sounds {
+    padding: 11px 0;
+    background-color: var(--accent-color);
+    display: flex;
+    justify-content: center;
+    color: #fff;
+}
+
+.free-sounds p {
+    width: 640px
+}
+
+.free-sounds a {
+    color: #fff;
+}
+
+.info {
+    background-image: url(../img/main-background.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.info__content {
+    width: 412px;
+    padding-top: 140px;
+    padding-left: 48px;
+    color: #fff;
+}
+
+.info__content_h1 {}
+
+.info__content_text {
+    margin-top: 26px;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.info__content_button {
+    margin-top: 44px;
+    padding: 16px 32px;
+    background-color: var(--accent-color);
+    color: #fff;
+    font-size: 16px;
+    line-height: 24px;
+    border-radius: 8px;
+    border-color: #03f
+}
+
+.info__learn-more {
+    margin-top: 150px;
+    text-align: center;
+    color: #fff;
+}
+
+.info__learn-more_arrow {
+    margin-top: 17px;
+    padding-bottom: 15px;
+}
+
+/* Настройки skills */
+
+.skills {}
+
+.skills__card {
+    padding-top: 96px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.skills__content {
+    max-width: 440px;
+}
+
+.skills__content.right {
+    text-align: end;
+}
+
+.skills__content h2 {
+    margin-top: 5px;
+}
+
+.skills__content p {
+    margin-top: 12px;
+
+}
+
+.skills__content button {
+    margin-top: 18px;
+}
+
+.button {
+    padding: 8px 20px;
+    border: 1px solid var(--accent-color);
+    border-radius: 8px;
+    background-color: var(--accent-color);
+    color: var(--white-color);
+}
+
+.skills__img {}
+
+/* Настройки creators*/
+.creators {
+    padding: 120px 0;
+}
+
+.creators__cards {
+    margin-top: 24px;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.creators__card {
+    padding: 32px;
+    background-color: #f8f8f8;
+    border: 1px solid #f8f8f8;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.creators__card_img {}
+
+.creators__card_text {
+    margin-top: 30px;
+    font-size: 20px;
+    line-height: 25px;
+    color: #000;
+}
+
+.creators__card_name {
+    margin-top: 16px;
+    text-align: left;
+    font-size: 14px;
+    line-height: 20px;
+    color: #767676;
+}
+
+/* Настройки try-today*/
+
+.try-today {
+    background-image: url(../img/footer-background.jpg);
+    background-repeat: no-repeat;
+    height: 728px;
+}
+.try-today__content {
+    text-align: center;
+}
+.try-today__h2 {
+    padding-top: 283px;
+    font-size: 54px;
+    line-height: 60px;
+    color: var(--white-color);
+}
+.try-today__button {
+    margin-top: 57px;
+}
+
+/* Настройки footer*/
+.footer {
+    padding: 48px 0;
+}
+.footer li:not(.card__h){
+    margin-top: 11px;
+    font-size: 12px;
+    line-height: 18px;
+    color: #A6A8AD;
+}
+.footer__cards {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 20px;
+}
+.footer__card {
+}
+.card__h_intented {
+    margin-top: 24px;
+}
+.copyright {
+    margin-top: 83px;
+}
+.copyright ul{
+    display: flex;
+}
+.copyright li:not(:first-child) {
+    margin-left: 24px;
+}
